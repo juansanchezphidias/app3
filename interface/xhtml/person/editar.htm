@@ -1,0 +1,27 @@
+<h2>Modificar persona</h2>
+
+<form method="post" action="">
+	
+	<div class="field">
+		<label>nombre</label>
+		<input type="text" name="nombre" value="{$persona->nombre}" />
+	</div>
+
+	<div class="field">
+		<label>apellido</label>
+		<input type="text" name="apellido" value="{$persona->apellido}" />
+	</div>
+
+	<div class="field">
+		<label>nacimiento</label>
+		<input type="text" name="nacimiento" value="{$persona->nacimiento}" />
+	</div>
+
+	<div class="field">
+		<label>email</label>
+		<input type="text" name="email" value="{$persona->email}" />
+	</div>
+
+	<input type="submit" value="Guardar" />
+
+</form>

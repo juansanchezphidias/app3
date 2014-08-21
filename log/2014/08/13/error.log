@@ -1,0 +1,10 @@
+13/08/2014 08:07:36	1407935256	127.0.0.1	visitor		GET	test/book			controller method book is not callable
+13/08/2014 08:07:36	1407935256	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+13/08/2014 09:38:29	1407940709	127.0.0.1	visitor		GET	debit			p&aacute;gina no encontrada
+13/08/2014 09:38:29	1407940709	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+13/08/2014 12:00:21	1407949221	127.0.0.1	visitor		GET	cobro			Syntax Error in template "C:\xampp\htdocs\app3\interface\xhtml\cobro.htm"  on line 2 ".ft0{border-left: #000000 1px solid; border-top-width: 1px; border-top-style: solid; border-bottom-width: 1px; border-bottom-style: solid;vertical-align: bottom;width:40%;height: 24px; }"  - Unexpected ": ", expected one of: "}" , " "
+13/08/2014 12:00:21	1407949221	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+13/08/2014 13:08:56	1407953336	127.0.0.1	visitor		GET	cobro			Syntax Error in template "C:\xampp\htdocs\app3\interface\xhtml\cobro.htm"  on line 5 ".p0{font-weight: bold; font-size: 12px; font-family: Verdana; line-height: 14px; padding-left: 1px;}"  - Unexpected ": ", expected one of: "}" , " "
+13/08/2014 13:08:56	1407953336	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+13/08/2014 15:16:58	1407961018	127.0.0.1	visitor		GET	cobro			Syntax Error in template "C:\xampp\htdocs\app3\interface\xhtml\cobro.htm"  on line 66 "&lt;td  class=&quot;td2&quot;&gt;&lt;p class=&quot;span1&quot; style=&quot; font-size: 12px;&quot;&gt;{$student-&gt;first_name |upper} {$student-&gt;last_name |upper}&lt;/p&gt;"  - Unexpected "|"
+13/08/2014 15:16:58	1407961018	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada

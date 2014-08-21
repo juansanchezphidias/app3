@@ -1,0 +1,16 @@
+<h2>Agrega una persona a la categoria</h2>
+
+<form method="post" action="?category={$id_category}">
+	
+	<div class="field">
+		<label>Persona</label>
+		<select name='person'>
+			{foreach $persons as $person}
+			 <option  value="{$person->id}">{$person->nombre} {$person->apellido}</option>
+			{/foreach}
+		</select>
+	</div>
+
+	<input type="submit" value="Guardar" />
+
+</form>

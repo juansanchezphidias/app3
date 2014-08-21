@@ -1,0 +1,10 @@
+13/08/2014 21:06:52	1407982012	127.0.0.1	visitor		GET	debit			p&aacute;gina no encontrada
+13/08/2014 21:06:52	1407982012	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+13/08/2014 21:53:40	1407984820	127.0.0.1	visitor		GET	cobro			Syntax Error in template "C:\xampp\htdocs\app3\interface\xhtml\cobro.htm"  on line 144 "{$counter=-}"  - Unexpected "}"
+13/08/2014 21:53:40	1407984820	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+13/08/2014 21:53:50	1407984830	127.0.0.1	visitor		GET	cobro			Syntax Error in template "C:\xampp\htdocs\app3\interface\xhtml\cobro.htm"  on line 144 "{$counter-=}"  - Unexpected "="
+13/08/2014 21:53:50	1407984830	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+13/08/2014 21:59:55	1407985195	127.0.0.1	visitor		GET	cobro			Syntax Error in template "C:\xampp\htdocs\app3\interface\xhtml\cobro.htm"  on line 178 "{html_image file='/app3/interface/xhtml/debit/img/barcode'.{$counter}.'.png'}"  - Unexpected ".", expected one of: "}" , " "
+13/08/2014 21:59:55	1407985195	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+14/08/2014 11:58:05	1408035485	127.0.0.1	visitor		GET	cobro1			p&aacute;gina no encontrada
+14/08/2014 11:58:05	1408035485	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada

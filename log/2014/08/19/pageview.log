@@ -1,0 +1,148 @@
+19/08/2014 08:05:27	1408453527	127.0.0.1	visitor		GET	category	
+19/08/2014 08:14:02	1408454042	127.0.0.1	visitor		GET	category/details	category=2
+19/08/2014 10:19:51	1408461591	127.0.0.1	visitor		GET	category	
+19/08/2014 11:52:57	1408467177	127.0.0.1	visitor		GET	category/details	category=2
+19/08/2014 11:53:01	1408467181	127.0.0.1	visitor		GET	category/addperson	category=2
+19/08/2014 11:53:05	1408467185	127.0.0.1	visitor		POST	category/addperson	category=2
+19/08/2014 11:53:05	1408467185	127.0.0.1	visitor		GET	category/details	category=2
+19/08/2014 11:54:16	1408467256	127.0.0.1	visitor		GET	category/details	category=2
+19/08/2014 11:55:45	1408467345	127.0.0.1	visitor		GET	category/addperson	category=2
+19/08/2014 11:55:50	1408467350	127.0.0.1	visitor		POST	category/addperson	category=2
+19/08/2014 11:55:50	1408467350	127.0.0.1	visitor		GET	category/details	category=2
+19/08/2014 11:56:04	1408467364	127.0.0.1	visitor		GET	category/addperson	category=2
+19/08/2014 11:56:08	1408467368	127.0.0.1	visitor		POST	category/addperson	category=2
+19/08/2014 11:56:08	1408467368	127.0.0.1	visitor		GET	category/details	category=2
+19/08/2014 11:56:18	1408467378	127.0.0.1	visitor		GET	category/details	category=3
+19/08/2014 11:56:21	1408467381	127.0.0.1	visitor		GET	category/addperson	category=3
+19/08/2014 11:57:11	1408467431	127.0.0.1	visitor		GET	category/addperson	category=3
+19/08/2014 11:57:36	1408467456	127.0.0.1	visitor		GET	category/addperson	category=3
+19/08/2014 11:57:44	1408467464	127.0.0.1	visitor		GET	category/addperson	category=3
+19/08/2014 11:57:57	1408467477	127.0.0.1	visitor		GET	category/addperson	category=3
+19/08/2014 11:58:44	1408467524	127.0.0.1	visitor		GET	category/addperson	category=3
+19/08/2014 12:00:44	1408467644	127.0.0.1	visitor		GET	category	
+19/08/2014 12:01:50	1408467710	127.0.0.1	visitor		GET	category	
+19/08/2014 12:01:55	1408467715	127.0.0.1	visitor		GET	category/details	category=2
+19/08/2014 12:02:00	1408467720	127.0.0.1	visitor		GET	category/details	category=3
+19/08/2014 12:02:12	1408467732	127.0.0.1	visitor		GET	category/details	category=3
+19/08/2014 12:02:14	1408467734	127.0.0.1	visitor		GET	category/details	category=2
+19/08/2014 12:02:17	1408467737	127.0.0.1	visitor		GET	category/details	category=2
+19/08/2014 12:02:18	1408467738	127.0.0.1	visitor		GET	category/details	category=2
+19/08/2014 12:02:23	1408467743	127.0.0.1	visitor		GET	category/details	category=2
+19/08/2014 12:02:23	1408467743	127.0.0.1	visitor		GET	category/details	category=2
+19/08/2014 12:02:25	1408467745	127.0.0.1	visitor		GET	category/edit	category=3
+19/08/2014 12:02:30	1408467750	127.0.0.1	visitor		POST	category/edit	category=3
+19/08/2014 12:02:30	1408467750	127.0.0.1	visitor		GET	category	
+19/08/2014 12:02:37	1408467757	127.0.0.1	visitor		GET	category/details	category=2
+19/08/2014 12:02:41	1408467761	127.0.0.1	visitor		GET	category/details	category=3
+19/08/2014 12:02:57	1408467777	127.0.0.1	visitor		GET	category/addperson	category=3
+19/08/2014 12:05:27	1408467927	127.0.0.1	visitor		GET	category/details	category=3
+19/08/2014 12:05:55	1408467955	127.0.0.1	visitor		GET	category/details	category=3
+19/08/2014 12:05:57	1408467957	127.0.0.1	visitor		GET	category/addperson	category=3
+19/08/2014 12:06:53	1408468013	127.0.0.1	visitor		GET	category/addperson	category=3
+19/08/2014 12:07:34	1408468054	127.0.0.1	visitor		GET	category/details	category=3
+19/08/2014 12:09:18	1408468158	127.0.0.1	visitor		GET	category/details	category=3
+19/08/2014 12:09:19	1408468159	127.0.0.1	visitor		GET	category/details	category=3
+19/08/2014 12:09:20	1408468160	127.0.0.1	visitor		GET	category/addperson	category=3
+19/08/2014 12:09:23	1408468163	127.0.0.1	visitor		POST	category/addperson	category=3
+19/08/2014 12:09:23	1408468163	127.0.0.1	visitor		GET	category/details	category=3
+19/08/2014 12:09:35	1408468175	127.0.0.1	visitor		GET	category/details	category=29
+19/08/2014 12:09:37	1408468177	127.0.0.1	visitor		GET	category/details	category=30
+19/08/2014 12:09:39	1408468179	127.0.0.1	visitor		GET	category/add	category=30
+19/08/2014 12:09:43	1408468183	127.0.0.1	visitor		POST	category/add	id_category=30
+19/08/2014 12:09:43	1408468183	127.0.0.1	visitor		GET	category/details	category=30
+19/08/2014 12:09:47	1408468187	127.0.0.1	visitor		GET	category/details	category=31
+19/08/2014 12:09:49	1408468189	127.0.0.1	visitor		GET	category/addperson	category=31
+19/08/2014 12:09:53	1408468193	127.0.0.1	visitor		POST	category/addperson	category=31
+19/08/2014 12:09:53	1408468193	127.0.0.1	visitor		GET	category/details	category=31
+19/08/2014 12:10:10	1408468210	127.0.0.1	visitor		GET	category/details	category=30
+19/08/2014 12:10:17	1408468217	127.0.0.1	visitor		GET	category/details	category=29
+19/08/2014 12:10:24	1408468224	127.0.0.1	visitor		GET	category/details	category=3
+19/08/2014 12:10:36	1408468236	127.0.0.1	visitor		GET	category/details	category=2
+19/08/2014 12:10:44	1408468244	127.0.0.1	visitor		GET	category/details	category=3
+19/08/2014 12:10:46	1408468246	127.0.0.1	visitor		GET	category/details	category=29
+19/08/2014 12:10:47	1408468247	127.0.0.1	visitor		GET	category/details	category=30
+19/08/2014 12:10:48	1408468248	127.0.0.1	visitor		GET	category/details	category=31
+19/08/2014 12:10:51	1408468251	127.0.0.1	visitor		GET	category/addperson	category=31
+19/08/2014 12:10:56	1408468256	127.0.0.1	visitor		POST	category/addperson	category=31
+19/08/2014 12:10:56	1408468256	127.0.0.1	visitor		GET	category/details	category=31
+19/08/2014 14:26:32	1408476392	127.0.0.1	visitor		GET	category/details	category=31
+19/08/2014 14:28:03	1408476483	127.0.0.1	visitor		GET	category/details	category=31
+19/08/2014 14:28:35	1408476515	127.0.0.1	visitor		GET	category/details	category=31
+19/08/2014 14:28:35	1408476515	127.0.0.1	visitor		GET	category/details	category=31
+19/08/2014 14:28:36	1408476516	127.0.0.1	visitor		GET	category/details	category=31
+19/08/2014 14:28:36	1408476516	127.0.0.1	visitor		GET	category/details	category=31
+19/08/2014 14:28:36	1408476516	127.0.0.1	visitor		GET	category/details	category=31
+19/08/2014 14:28:36	1408476516	127.0.0.1	visitor		GET	category/details	category=31
+19/08/2014 14:28:36	1408476516	127.0.0.1	visitor		GET	category/details	category=31
+19/08/2014 14:28:36	1408476516	127.0.0.1	visitor		GET	category/details	category=31
+19/08/2014 14:28:37	1408476517	127.0.0.1	visitor		GET	category/details	category=31
+19/08/2014 14:29:13	1408476553	127.0.0.1	visitor		GET	category/details	category=30
+19/08/2014 14:29:18	1408476558	127.0.0.1	visitor		GET	category/details	category=29
+19/08/2014 14:29:20	1408476560	127.0.0.1	visitor		GET	category/details	category=3
+19/08/2014 14:29:22	1408476562	127.0.0.1	visitor		GET	category/details	category=2
+19/08/2014 14:31:38	1408476698	127.0.0.1	visitor		GET	category	
+19/08/2014 14:33:16	1408476796	127.0.0.1	visitor		GET	category	
+19/08/2014 14:33:17	1408476797	127.0.0.1	visitor		GET	category/add	
+19/08/2014 14:33:27	1408476807	127.0.0.1	visitor		POST	category/add	id_category=
+19/08/2014 14:33:27	1408476807	127.0.0.1	visitor		GET	category	
+19/08/2014 14:33:30	1408476810	127.0.0.1	visitor		GET	category/add	
+19/08/2014 14:33:38	1408476818	127.0.0.1	visitor		POST	category/add	id_category=
+19/08/2014 14:33:38	1408476818	127.0.0.1	visitor		GET	category	
+19/08/2014 14:33:40	1408476820	127.0.0.1	visitor		GET	category/add	
+19/08/2014 14:33:45	1408476825	127.0.0.1	visitor		POST	category/add	id_category=
+19/08/2014 14:33:45	1408476825	127.0.0.1	visitor		GET	category	
+19/08/2014 14:33:52	1408476832	127.0.0.1	visitor		GET	category/details	category=32
+19/08/2014 14:33:55	1408476835	127.0.0.1	visitor		GET	category/addperson	category=32
+19/08/2014 14:33:58	1408476838	127.0.0.1	visitor		POST	category/addperson	category=32
+19/08/2014 14:33:58	1408476838	127.0.0.1	visitor		GET	category/details	category=32
+19/08/2014 14:34:01	1408476841	127.0.0.1	visitor		GET	category/addperson	category=32
+19/08/2014 14:34:04	1408476844	127.0.0.1	visitor		POST	category/addperson	category=32
+19/08/2014 14:34:04	1408476844	127.0.0.1	visitor		GET	category/details	category=32
+19/08/2014 14:34:06	1408476846	127.0.0.1	visitor		GET	category	
+19/08/2014 14:34:09	1408476849	127.0.0.1	visitor		GET	category/details	category=32
+19/08/2014 14:34:12	1408476852	127.0.0.1	visitor		GET	category/add	category=32
+19/08/2014 14:34:21	1408476861	127.0.0.1	visitor		POST	category/add	id_category=32
+19/08/2014 14:34:21	1408476861	127.0.0.1	visitor		GET	category/details	category=32
+19/08/2014 14:34:27	1408476867	127.0.0.1	visitor		GET	category/add	category=32
+19/08/2014 14:34:33	1408476873	127.0.0.1	visitor		POST	category/add	id_category=32
+19/08/2014 14:34:33	1408476873	127.0.0.1	visitor		GET	category/details	category=32
+19/08/2014 14:34:37	1408476877	127.0.0.1	visitor		GET	category/details	category=35
+19/08/2014 14:34:39	1408476879	127.0.0.1	visitor		GET	category/add	category=35
+19/08/2014 14:34:47	1408476887	127.0.0.1	visitor		POST	category/add	id_category=35
+19/08/2014 14:34:47	1408476887	127.0.0.1	visitor		GET	category/details	category=35
+19/08/2014 14:34:49	1408476889	127.0.0.1	visitor		GET	category/add	category=35
+19/08/2014 14:34:55	1408476895	127.0.0.1	visitor		POST	category/add	id_category=35
+19/08/2014 14:34:55	1408476895	127.0.0.1	visitor		GET	category/details	category=35
+19/08/2014 14:34:57	1408476897	127.0.0.1	visitor		GET	category/details	category=37
+19/08/2014 14:34:59	1408476899	127.0.0.1	visitor		GET	category/addperson	category=37
+19/08/2014 14:35:02	1408476902	127.0.0.1	visitor		POST	category/addperson	category=37
+19/08/2014 14:35:02	1408476902	127.0.0.1	visitor		GET	category/details	category=37
+19/08/2014 14:35:04	1408476904	127.0.0.1	visitor		GET	category/addperson	category=37
+19/08/2014 14:35:08	1408476908	127.0.0.1	visitor		POST	category/addperson	category=37
+19/08/2014 14:35:08	1408476908	127.0.0.1	visitor		GET	category/details	category=37
+19/08/2014 14:35:10	1408476910	127.0.0.1	visitor		GET	category/addperson	category=37
+19/08/2014 14:35:13	1408476913	127.0.0.1	visitor		POST	category/addperson	category=37
+19/08/2014 14:35:13	1408476913	127.0.0.1	visitor		GET	category/details	category=37
+19/08/2014 14:35:18	1408476918	127.0.0.1	visitor		GET	category/details	category=35
+19/08/2014 14:35:21	1408476921	127.0.0.1	visitor		GET	category/details	category=38
+19/08/2014 14:35:23	1408476923	127.0.0.1	visitor		GET	category/addperson	category=38
+19/08/2014 14:35:26	1408476926	127.0.0.1	visitor		POST	category/addperson	category=38
+19/08/2014 14:35:26	1408476926	127.0.0.1	visitor		GET	category/details	category=38
+19/08/2014 14:35:28	1408476928	127.0.0.1	visitor		GET	category/addperson	category=38
+19/08/2014 14:35:31	1408476931	127.0.0.1	visitor		POST	category/addperson	category=38
+19/08/2014 14:35:31	1408476931	127.0.0.1	visitor		GET	category/details	category=38
+19/08/2014 14:35:35	1408476935	127.0.0.1	visitor		GET	category/details	category=35
+19/08/2014 14:35:39	1408476939	127.0.0.1	visitor		GET	category/details	category=32
+19/08/2014 14:35:41	1408476941	127.0.0.1	visitor		GET	category/details	category=36
+19/08/2014 14:35:43	1408476943	127.0.0.1	visitor		GET	category/addperson	category=36
+19/08/2014 14:35:47	1408476947	127.0.0.1	visitor		POST	category/addperson	category=36
+19/08/2014 14:35:47	1408476947	127.0.0.1	visitor		GET	category/details	category=36
+19/08/2014 14:35:49	1408476949	127.0.0.1	visitor		GET	category/details	category=32
+19/08/2014 14:35:55	1408476955	127.0.0.1	visitor		GET	category	
+19/08/2014 15:02:02	1408478522	127.0.0.1	visitor		GET	category/details	category=32
+19/08/2014 15:06:14	1408478774	127.0.0.1	visitor		GET	category/details	category=3
+19/08/2014 15:06:19	1408478779	127.0.0.1	visitor		GET	category	
+19/08/2014 15:06:22	1408478782	127.0.0.1	visitor		GET	category/details	category=32
+19/08/2014 15:21:25	1408479685	127.0.0.1	visitor		GET	category	debug_level=4
+19/08/2014 15:21:36	1408479696	127.0.0.1	visitor		GET	category	debug_level=4
+19/08/2014 15:21:53	1408479713	127.0.0.1	visitor		GET	category	debug_level=4

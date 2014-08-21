@@ -1,0 +1,30 @@
+<h2>Lista de libros</h2>
+
+<a href="book/add">Crear libro</a>
+
+<table width="100%" cellpadding="0" cellspacing="0">
+	<thead>
+		<tr>
+			<td><a href="?order=id">Id</a></td>
+			<td><a href="?order=isbn">Isbn</a></td>
+			<td><a href="?order=title">Titulo</a></td>
+			<td>Sinopsis</td>
+			<td></td>
+			<td></td>
+		</tr>
+	</thead>
+
+	<tbody>
+		{foreach $books as $book}
+		<tr>
+			<td>{$book->id}</td>
+			<td>{$book->isbn}</td>
+			<td><a href="book/synopsis?book={$book->id}">{$book->title}</a></td>
+			<td>{$book->synopsis}</td>
+
+			<td><a href="book/edit?book={$book->id}">Editar</a></td>
+			<td><a href="book/delete?book={$book->id}" onclick="return confirm('Esta seguro?')" >Borrar</a></td>
+		</tr>
+		{/foreach}
+	</tbody>
+</table>

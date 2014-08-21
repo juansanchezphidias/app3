@@ -1,0 +1,116 @@
+15/08/2014 11:49:07	1408121347	127.0.0.1	visitor		GET	category			p&aacute;gina no encontrada
+15/08/2014 11:49:07	1408121347	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+15/08/2014 11:49:28	1408121368	127.0.0.1	visitor		GET	category			p&aacute;gina no encontrada
+15/08/2014 11:49:28	1408121368	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+15/08/2014 11:50:09	1408121409	127.0.0.1	visitor		GET	category			p&aacute;gina no encontrada
+15/08/2014 11:50:10	1408121410	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+15/08/2014 14:30:33	1408131033	127.0.0.1	visitor		POST	category/add			DB Error: already exists
+15/08/2014 14:30:34	1408131034	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+15/08/2014 14:31:45	1408131105	127.0.0.1	visitor		GET	category/category/add			controller method category is not callable
+15/08/2014 14:31:45	1408131105	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+15/08/2014 14:31:54	1408131114	127.0.0.1	visitor		GET	categoryadd			p&aacute;gina no encontrada
+15/08/2014 14:31:54	1408131114	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+15/08/2014 14:32:16	1408131136	127.0.0.1	visitor		POST	category/add			DB Error: already exists
+15/08/2014 14:32:16	1408131136	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+15/08/2014 14:33:48	1408131228	127.0.0.1	visitor		GET	category/details	category=1		controller method details is not callable
+15/08/2014 14:33:48	1408131228	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+15/08/2014 14:33:59	1408131239	127.0.0.1	visitor		POST	category/add			DB Error: already exists
+15/08/2014 14:33:59	1408131239	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+15/08/2014 14:41:44	1408131704	127.0.0.1	visitor		GET	category/details	category=5		controller method details is not callable
+15/08/2014 14:41:44	1408131704	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+15/08/2014 14:43:08	1408131788	127.0.0.1	visitor		GET	category/details	category=5		controller method details is not callable
+15/08/2014 14:43:08	1408131788	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+15/08/2014 15:30:32	1408134632	127.0.0.1	visitor		GET	category/category/details	category=5		controller method category is not callable
+15/08/2014 15:30:32	1408134632	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+15/08/2014 15:30:35	1408134635	127.0.0.1	visitor		GET	category/category/details	category=5		controller method category is not callable
+15/08/2014 15:30:35	1408134635	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+15/08/2014 15:30:37	1408134637	127.0.0.1	visitor		GET	category/category/details	category=5		controller method category is not callable
+15/08/2014 15:30:37	1408134637	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+15/08/2014 15:30:38	1408134638	127.0.0.1	visitor		GET	category/category/details	category=5		controller method category is not callable
+15/08/2014 15:30:38	1408134638	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+15/08/2014 15:31:20	1408134680	127.0.0.1	visitor		GET	category/category/details	category=5&debug_level=5		controller method category is not callable
+15/08/2014 15:31:20	1408134680	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+15/08/2014 15:33:46	1408134826	127.0.0.1	visitor		GET	category/category/details	category=5&debug_level=5		controller method category is not callable
+15/08/2014 15:33:46	1408134826	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+15/08/2014 15:33:48	1408134828	127.0.0.1	visitor		GET	category/category/details	category=5&debug_level=5		controller method category is not callable
+15/08/2014 15:33:48	1408134828	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+15/08/2014 15:35:20	1408134920	127.0.0.1	visitor		GET	category/category/details	category=5&debug_level=5		controller method category is not callable
+15/08/2014 15:35:20	1408134920	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+15/08/2014 15:35:21	1408134921	127.0.0.1	visitor		GET	category/category/details	category=5&debug_level=5		controller method category is not callable
+15/08/2014 15:35:21	1408134921	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+15/08/2014 15:36:00	1408134960	127.0.0.1	visitor		GET	category/category/details	category=5		controller method category is not callable
+15/08/2014 15:36:00	1408134960	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+15/08/2014 15:36:54	1408135014	127.0.0.1	visitor		GET	category/category/details	category=5		controller method category is not callable
+15/08/2014 15:36:54	1408135014	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+15/08/2014 15:36:56	1408135016	127.0.0.1	visitor		GET	category/category/details	category=5		controller method category is not callable
+15/08/2014 15:36:56	1408135016	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+15/08/2014 15:36:56	1408135016	127.0.0.1	visitor		GET	category/category/details	category=5		controller method category is not callable
+15/08/2014 15:36:56	1408135016	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+15/08/2014 15:36:56	1408135016	127.0.0.1	visitor		GET	category/category/details	category=5		controller method category is not callable
+15/08/2014 15:36:56	1408135016	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+15/08/2014 15:36:58	1408135018	127.0.0.1	visitor		GET	category/category/details	category=5&debug_level=5		controller method category is not callable
+15/08/2014 15:36:58	1408135018	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+15/08/2014 15:37:00	1408135020	127.0.0.1	visitor		GET	category/category/details	category=5&debug_level=5		controller method category is not callable
+15/08/2014 15:37:00	1408135020	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+15/08/2014 15:38:37	1408135117	127.0.0.1	visitor		GET	category/category/details	category=5&debug_level=5		controller method category is not callable
+15/08/2014 15:38:37	1408135117	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+15/08/2014 15:38:39	1408135119	127.0.0.1	visitor		GET	category/category/details	category=5&debug_level=5		controller method category is not callable
+15/08/2014 15:38:39	1408135119	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+15/08/2014 15:38:39	1408135119	127.0.0.1	visitor		GET	category/category/details	category=5&debug_level=5		controller method category is not callable
+15/08/2014 15:38:39	1408135119	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+15/08/2014 15:38:39	1408135119	127.0.0.1	visitor		GET	category/category/details	category=5&debug_level=5		controller method category is not callable
+15/08/2014 15:38:39	1408135119	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+15/08/2014 15:38:40	1408135120	127.0.0.1	visitor		GET	category/category/details	category=5&debug_level=5		controller method category is not callable
+15/08/2014 15:38:40	1408135120	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+15/08/2014 15:38:40	1408135120	127.0.0.1	visitor		GET	category/category/details	category=5&debug_level=5		controller method category is not callable
+15/08/2014 15:38:40	1408135120	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+15/08/2014 15:39:07	1408135147	127.0.0.1	visitor		GET	category/category/details	category=5&debug_level=5		controller method category is not callable
+15/08/2014 15:39:07	1408135147	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+15/08/2014 15:39:45	1408135185	127.0.0.1	visitor		GET	category/category/details	category=5&debug_level=5		controller method category is not callable
+15/08/2014 15:39:45	1408135185	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+15/08/2014 15:39:47	1408135187	127.0.0.1	visitor		GET	category/category/details	category=5&debug_level=5		controller method category is not callable
+15/08/2014 15:39:47	1408135187	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+15/08/2014 15:39:47	1408135187	127.0.0.1	visitor		GET	category/category/details	category=5&debug_level=5		controller method category is not callable
+15/08/2014 15:39:47	1408135187	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+15/08/2014 15:39:47	1408135187	127.0.0.1	visitor		GET	category/category/details	category=5&debug_level=5		controller method category is not callable
+15/08/2014 15:39:47	1408135187	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+15/08/2014 15:39:47	1408135187	127.0.0.1	visitor		GET	category/category/details	category=5&debug_level=5		controller method category is not callable
+15/08/2014 15:39:48	1408135188	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+15/08/2014 15:39:48	1408135188	127.0.0.1	visitor		GET	category/category/details	category=5&debug_level=5		controller method category is not callable
+15/08/2014 15:39:48	1408135188	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+15/08/2014 15:39:48	1408135188	127.0.0.1	visitor		GET	category/category/details	category=5&debug_level=5		controller method category is not callable
+15/08/2014 15:39:48	1408135188	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+15/08/2014 15:39:48	1408135188	127.0.0.1	visitor		GET	category/category/details	category=5&debug_level=5		controller method category is not callable
+15/08/2014 15:39:48	1408135188	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+15/08/2014 15:40:10	1408135210	127.0.0.1	visitor		GET	category/category/details	category=5&debug_level=5		controller method category is not callable
+15/08/2014 15:40:10	1408135210	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+15/08/2014 15:40:11	1408135211	127.0.0.1	visitor		GET	category/category/details	category=5&debug_level=5		controller method category is not callable
+15/08/2014 15:40:11	1408135211	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+15/08/2014 15:40:11	1408135211	127.0.0.1	visitor		GET	category/category/details	category=5&debug_level=5		controller method category is not callable
+15/08/2014 15:40:11	1408135211	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+15/08/2014 15:40:11	1408135211	127.0.0.1	visitor		GET	category/category/details	category=5&debug_level=5		controller method category is not callable
+15/08/2014 15:40:11	1408135211	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+15/08/2014 15:40:56	1408135256	127.0.0.1	visitor		GET	category/category/edit	category=<br /><b>Notice</b>:  Trying to get property of non-object in <b>C:\xampp\htdocs\app3\tmp\dd2ed63c\xhtml\7d39303311d8e52ed2b0e881b61a2ef4c5efe4f6.file.details.htm.php</b> on line <b>53</b><br />		controller method category is not callable
+15/08/2014 15:40:56	1408135256	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+15/08/2014 16:00:28	1408136428	127.0.0.1	visitor		GET	category/details	category=7		Syntax Error in template "C:\xampp\htdocs\app3\interface\xhtml\category/details.htm"  on line 22 "{if is_array($categories) }"  - Unexpected " }"
+15/08/2014 16:00:28	1408136428	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+15/08/2014 16:05:20	1408136720	127.0.0.1	visitor		GET	category/category/add			controller method category is not callable
+15/08/2014 16:05:20	1408136720	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+15/08/2014 16:09:41	1408136981	127.0.0.1	visitor		GET	category/category/add			controller method category is not callable
+15/08/2014 16:09:41	1408136981	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+15/08/2014 16:11:02	1408137062	127.0.0.1	visitor		GET	category/category/details	category=2		controller method category is not callable
+15/08/2014 16:11:02	1408137062	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+15/08/2014 16:12:54	1408137174	127.0.0.1	visitor		GET	categorydetails	category=2		p&aacute;gina no encontrada
+15/08/2014 16:12:54	1408137174	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+15/08/2014 16:37:19	1408138639	127.0.0.1	visitor		GET	category/category/details	category=2		controller method category is not callable
+15/08/2014 16:37:19	1408138639	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+15/08/2014 16:37:25	1408138645	127.0.0.1	visitor		GET	category/category/details			controller method category is not callable
+15/08/2014 16:37:26	1408138646	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+15/08/2014 16:37:28	1408138648	127.0.0.1	visitor		GET	category/category			controller method category is not callable
+15/08/2014 16:37:28	1408138648	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+15/08/2014 16:37:30	1408138650	127.0.0.1	visitor		GET	category/category			controller method category is not callable
+15/08/2014 16:37:30	1408138650	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+15/08/2014 16:53:44	1408139624	127.0.0.1	visitor		GET	category/category/details	category=12		controller method category is not callable
+15/08/2014 16:53:44	1408139624	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+15/08/2014 16:54:00	1408139640	127.0.0.1	visitor		GET	category/category/details	category=16		controller method category is not callable
+15/08/2014 16:54:00	1408139640	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada

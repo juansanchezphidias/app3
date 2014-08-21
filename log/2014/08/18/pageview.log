@@ -1,0 +1,33 @@
+18/08/2014 09:51:55	1408373515	127.0.0.1	visitor		GET	category	
+18/08/2014 09:52:00	1408373520	127.0.0.1	visitor		GET	category/details	category=2
+18/08/2014 10:09:07	1408374547	127.0.0.1	visitor		GET	category/details	category=2
+18/08/2014 10:09:26	1408374566	127.0.0.1	visitor		GET	category/details	category=2
+18/08/2014 10:09:28	1408374568	127.0.0.1	visitor		GET	category/details	category=2
+18/08/2014 10:09:30	1408374570	127.0.0.1	visitor		GET	category/details	category=2
+18/08/2014 10:09:31	1408374571	127.0.0.1	visitor		GET	category/details	category=2
+18/08/2014 10:09:33	1408374573	127.0.0.1	visitor		GET	category/details	category=2
+18/08/2014 10:10:51	1408374651	127.0.0.1	visitor		GET	category/details	category=2
+18/08/2014 10:10:52	1408374652	127.0.0.1	visitor		GET	category/details	category=2
+18/08/2014 10:10:52	1408374652	127.0.0.1	visitor		GET	category/details	category=2
+18/08/2014 10:22:26	1408375346	127.0.0.1	visitor		GET	category/details	category=28&debug_level=4
+18/08/2014 10:31:03	1408375863	127.0.0.1	visitor		GET	category/details	category=28&debug_level=4
+18/08/2014 10:33:11	1408375991	127.0.0.1	visitor		GET	category/details	category=28&debug_level=4
+18/08/2014 10:33:27	1408376007	127.0.0.1	visitor		GET	category/details	category=28&debug_level=4
+18/08/2014 10:33:44	1408376024	127.0.0.1	visitor		GET	category/details	category=28&debug_level=4
+18/08/2014 10:51:20	1408377080	127.0.0.1	visitor		GET	category/details	category=28&debug_level=4
+18/08/2014 10:51:25	1408377085	127.0.0.1	visitor		GET	category/edit	category=28
+18/08/2014 10:51:28	1408377088	127.0.0.1	visitor		GET	category/details	category=28&debug_level=4
+18/08/2014 10:51:44	1408377104	127.0.0.1	visitor		GET	category/details	category=28&debug_level=4
+18/08/2014 10:51:47	1408377107	127.0.0.1	visitor		GET	category/details	category=28
+18/08/2014 10:51:49	1408377109	127.0.0.1	visitor		GET	category/details	category=28
+18/08/2014 10:51:53	1408377113	127.0.0.1	visitor		GET	category/details	category=7
+18/08/2014 10:51:57	1408377117	127.0.0.1	visitor		GET	category/details	category=7
+18/08/2014 10:51:59	1408377119	127.0.0.1	visitor		GET	category/details	category=4
+18/08/2014 10:52:05	1408377125	127.0.0.1	visitor		GET	category/details	category=2
+18/08/2014 10:52:09	1408377129	127.0.0.1	visitor		GET	category	
+18/08/2014 10:52:21	1408377141	127.0.0.1	visitor		GET	category	
+18/08/2014 10:52:23	1408377143	127.0.0.1	visitor		GET	category/details	category=2
+18/08/2014 10:52:39	1408377159	127.0.0.1	visitor		GET	category/details	category=3
+18/08/2014 10:52:43	1408377163	127.0.0.1	visitor		GET	category/details	category=29
+18/08/2014 10:52:46	1408377166	127.0.0.1	visitor		GET	category/details	category=30
+18/08/2014 13:47:53	1408387673	127.0.0.1	visitor		GET	category	

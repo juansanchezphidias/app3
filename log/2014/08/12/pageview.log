@@ -1,0 +1,58 @@
+12/08/2014 10:33:24	1407857604	127.0.0.1	visitor		GET	person	
+12/08/2014 10:33:29	1407857609	127.0.0.1	visitor		GET	person	
+12/08/2014 10:33:33	1407857613	127.0.0.1	visitor		GET	person/detalles	persona=2
+12/08/2014 10:33:35	1407857615	127.0.0.1	visitor		GET	person	
+12/08/2014 10:33:37	1407857617	127.0.0.1	visitor		GET	person/detalles	persona=1
+12/08/2014 10:33:38	1407857618	127.0.0.1	visitor		GET	person/editar	persona=1
+12/08/2014 10:33:42	1407857622	127.0.0.1	visitor		POST	person/editar	persona=1
+12/08/2014 10:33:42	1407857622	127.0.0.1	visitor		GET	person	
+12/08/2014 10:33:44	1407857624	127.0.0.1	visitor		GET	person/detalles	persona=8
+12/08/2014 10:33:48	1407857628	127.0.0.1	visitor		GET	person/borrar	persona=8
+12/08/2014 10:33:48	1407857628	127.0.0.1	visitor		GET	person	
+12/08/2014 11:29:24	1407860964	127.0.0.1	visitor		GET	book	
+12/08/2014 11:29:28	1407860968	127.0.0.1	visitor		GET	book/add	
+12/08/2014 11:30:58	1407861058	127.0.0.1	visitor		GET	book	
+12/08/2014 11:32:35	1407861155	127.0.0.1	visitor		GET	book/add	
+12/08/2014 11:33:10	1407861190	127.0.0.1	visitor		GET	book	
+12/08/2014 11:33:11	1407861191	127.0.0.1	visitor		GET	book/add	
+12/08/2014 11:33:26	1407861206	127.0.0.1	visitor		POST	book/add	
+12/08/2014 11:33:26	1407861206	127.0.0.1	visitor		GET	book	
+12/08/2014 11:33:31	1407861211	127.0.0.1	visitor		GET	book/edit	book=1
+12/08/2014 11:33:42	1407861222	127.0.0.1	visitor		POST	book/edit	book=1
+12/08/2014 11:33:42	1407861222	127.0.0.1	visitor		GET	book	
+12/08/2014 11:33:46	1407861226	127.0.0.1	visitor		GET	book/add	
+12/08/2014 11:33:49	1407861229	127.0.0.1	visitor		POST	book/add	
+12/08/2014 11:33:49	1407861229	127.0.0.1	visitor		GET	book	
+12/08/2014 11:33:53	1407861233	127.0.0.1	visitor		GET	book/delete	book=2
+12/08/2014 11:33:53	1407861233	127.0.0.1	visitor		GET	book	
+12/08/2014 11:33:57	1407861237	127.0.0.1	visitor		GET	book/synopsis	book=1
+12/08/2014 11:33:59	1407861239	127.0.0.1	visitor		GET	book	
+12/08/2014 11:34:01	1407861241	127.0.0.1	visitor		GET	book/synopsis	book=1
+12/08/2014 11:34:02	1407861242	127.0.0.1	visitor		GET	book/edit	book=1
+12/08/2014 11:34:11	1407861251	127.0.0.1	visitor		POST	book/edit	book=1
+12/08/2014 11:34:11	1407861251	127.0.0.1	visitor		GET	book	
+12/08/2014 11:34:18	1407861258	127.0.0.1	visitor		GET	book/add	
+12/08/2014 11:34:20	1407861260	127.0.0.1	visitor		POST	book/add	
+12/08/2014 11:34:20	1407861260	127.0.0.1	visitor		GET	book	
+12/08/2014 11:34:22	1407861262	127.0.0.1	visitor		GET	book/synopsis	book=3
+12/08/2014 11:34:25	1407861265	127.0.0.1	visitor		GET	book/delete	book=3
+12/08/2014 11:34:25	1407861265	127.0.0.1	visitor		GET	book	
+12/08/2014 11:39:08	1407861548	127.0.0.1	visitor		GET	book	
+12/08/2014 11:39:10	1407861550	127.0.0.1	visitor		GET	book/add	
+12/08/2014 11:39:14	1407861554	127.0.0.1	visitor		POST	book/add	
+12/08/2014 11:39:14	1407861554	127.0.0.1	visitor		GET	book	
+12/08/2014 11:39:52	1407861592	127.0.0.1	visitor		GET	book/delete	book=4
+12/08/2014 11:39:52	1407861592	127.0.0.1	visitor		GET	book	
+12/08/2014 11:39:54	1407861594	127.0.0.1	visitor		GET	book/synopsis	book=1
+12/08/2014 11:40:11	1407861611	127.0.0.1	visitor		GET	book/synopsis	book=1
+12/08/2014 11:41:41	1407861701	127.0.0.1	visitor		GET	book	
+12/08/2014 11:41:46	1407861706	127.0.0.1	visitor		GET	book/add	
+12/08/2014 11:41:59	1407861719	127.0.0.1	visitor		POST	book/add	
+12/08/2014 11:41:59	1407861719	127.0.0.1	visitor		GET	book	
+12/08/2014 11:42:01	1407861721	127.0.0.1	visitor		GET	book	order=title
+12/08/2014 11:42:02	1407861722	127.0.0.1	visitor		GET	book	order=title
+12/08/2014 11:42:04	1407861724	127.0.0.1	visitor		GET	book	order=isbn
+12/08/2014 11:42:05	1407861725	127.0.0.1	visitor		GET	book	order=isbn
+12/08/2014 11:42:07	1407861727	127.0.0.1	visitor		GET	book	order=id
+12/08/2014 11:42:08	1407861728	127.0.0.1	visitor		GET	book	order=title
+12/08/2014 11:42:10	1407861730	127.0.0.1	visitor		GET	book	order=id

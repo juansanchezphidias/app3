@@ -1,0 +1,238 @@
+<body>
+	<style type="text/css">
+	.span0{ font-family: Verdana; font-size: 13px; font-weight: bold; line-height: 30px; white-space: nowrap;}
+	.span1{ font-family: Verdana; font-size: 12px; line-height: 20px;}
+	.pp0{ font-weight: bold; font-size: 11px; font-family: Verdana; line-height: 14px; padding-left: 1px; }
+	.pp1{ font-weight: bold; font-size: 13px; font-family: Verdana; line-height: 16px; text-align: center; padding-right: 27px;  }
+	.pp2{ font-weight: bold; font-size: 11px; font-family: Verdana; line-height: 14px; padding-left: 1px;  text-align: center; }
+	.pp3{ font-size: 12px;  text-align: center; font-family: Verdana; line-height: 14px; }
+	.pp4{ font-weight: bold; font-size: 10px;   font-family: Verdana; line-height: 14px; }
+	.td0{ border-left: #000000 1px solid; border-top-width: 1px; border-top-style: solid; border-bottom-width: 1px; border-bottom-style: solid;vertical-align: bottom;width:40%;  height: 24px; }
+	.td1{ border-right-width: 1px; border-right-style: solid; border-top-width: 1px; border-top-style: solid; border-bottom-width: 1px; border-bottom-style: solid; width: 60%;  vertical-align: bottom; height: 24px;}
+	.td2{  border-top-width: 1px; border-top-style: solid; border-bottom-width: 1px; border-bottom-style: solid; width: 9%;  vertical-align: bottom; height: 24px;}
+	.td3{  border-left: #000000 1px solid;  border-top-width: 1px; border-top-style: solid; border-bottom-width: 1px; border-bottom-style: solid; width: 7%;  vertical-align: bottom; height: 24px;}
+	.td4{ border-right-width: 1px; border-right-style: solid;  border-top-width: 1px; border-top-style: solid; border-bottom-width: 1px; border-bottom-style: solid; width: 10%;  vertical-align: bottom; height: 24px;  text-align: center; }
+	.td5{  border-left: #000000 1px solid;  width: 30%;  vertical-align: bottom; height: 20px;}
+	.td6{ border-right-width: 1px; border-right-style: solid; width: 30%;  vertical-align: bottom; height: 20px; }
+	</style>
+</body>
+<div style="height:15%;width:100%;">
+	<div style="float:left;width:30%;">
+		{html_image file='/app3/interface/xhtml/debit/img/small_logo.png'}
+	</div>
+	<div style="float:left;width:44%;">
+		<span  class="span0">British International School</span>
+		<br>
+		<span class="span1">
+			Nit. 800.197.143-2 <br>
+			Km 6 Antigua Via Pto Colombia-PBX. 3598699
+		</span>
+		<br>
+		<span class="span0">Recibo De Pago</span>
+	</div>
+	<div style="float:left;width:26%;">
+		<table cellpadding="0" cellspacing="0" class="" style="font-size: 11px;width:100% ">
+			<tbody>
+				<tr>
+					<td  class="td0"><p class="pp0">Banco</p>
+					</td>
+					<td class="td1"><p  class="pp0">Bancolombia</p>
+					</td>
+				</tr>
+				<tr>
+					<td  class="td0"><p class="pp0">Cuenta</p>
+					</td>
+					<td class="td1"><p  class="pp0">083-197143-08</p>
+					</td>
+				</tr>
+				<tr>
+					<td  class="td0"><p class="pp0">Ref Pago</p>
+					</td>
+					<td class="td1"><p  class="pp0">{$debit->reference}</p>
+					</td>
+				</tr>
+				<tr>
+					<td  class="td0"><p class="pp0">Mes</p>
+					</td>
+					<td class="td1"><p  class="pp0">Mayo</p>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
+<div style="float:left;height:45%;width:100%;">
+	<div style="float:left;width:100%;">
+		<table cellpadding="0" cellspacing="0" class="" style="font-size: 11px;width:100% ">
+			<tbody>
+				<tr>
+					<td  class="td3"><p class="pp2">Codigo</p>
+					</td>
+					<td class="td2" style=" background: rgb(105, 105, 105);"><p  class="pp1" >{$student->code}</p>
+					</td>
+					<td  class="td2" style=" width: 27%;"><p   class="pp3">{$student->first_name|upper} {$student->last_name|upper}</p>
+					</td>
+					<td class="td2"><p  class="pp2">Curso</p>
+					</td>
+					<td  class="td2"><p class="pp3"> {$student->course}</p>
+					</td>
+					<td class="td2"><p  class="pp2">Fecha</p>
+					</td>
+					<td  class="td4"><p class="pp3">{$debit->date}</p>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<table cellpadding="0" cellspacing="0" class="" style="font-size: 11px;width:100% ">
+			<tbody>
+				<tr>
+					<td  class="td3" style=" width: 30%;"><p class="pp1">Mes</p>
+					</td>
+					<td class="td2" style=" width: 30%;"><p  class="pp1" >Valor</p>
+					</td>
+					<td  class="td3" style=" width: 20%;"><p   class="pp3">Fecha</p>
+					</td>
+					<td  class="td4" style=" width: 20%;"><p class="pp3">Valor</p>
+					</td>
+				</tr>
+				{assign var=total value=$debit->interest}
+				{foreach $debit->concepts as $concept}
+					{$total=$total+$concept->value}
+					<tr>
+						
+						{if $concept@last}<hr>
+							<td class="td5" style="border-bottom-width: 1px; border-bottom-style: solid; padding-left: 5%;"><p  class="span1" >{$concept->name}</p>
+							</td>
+							<td class="td6" style="border-bottom-width: 1px; border-bottom-style: solid; padding-left: 5%; "><p  class="span1" >{$concept->value|currency}</p>
+							</td>
+							<td  style="border-bottom-width: 1px; border-bottom-style: solid; padding-left: 5%; "><p  class="span1" >2014/05/10</p></td>
+							<td class="td6" style="border-bottom-width: 1px; border-bottom-style: solid; padding-left: 5%; "><p  class="span1" >{$total|currency}</p>
+							</td>
+						{else}
+							<td class="td5" style=" padding-left: 5%;"><p  class="span1" >{$concept->name}</p>
+							</td>
+							<td class="td6" style=" padding-left: 5%; "><p  class="span1" >{$concept->value|currency}</p>
+							</td>
+							<td></td>
+							<td class="td6" style=" padding-left: 5%; ">
+							</td>
+						{/if}
+					</tr>
+				{/foreach}
+			</tbody>
+		</table>
+		<span  class="span1"><b>Nota:</b> puede cancelar este recibo por www.britishschool.edu.co opcion pagos online</span>
+	</div>	
+</div>
+<div style="height:20%;width:100%;float:left;">
+	<div style="float:left;width:50%;" align="center">
+		{html_image file='/app3/interface/xhtml/debit/img/barcode1.png'}
+		<pre><span  class="span1"><b>Valor al Primer Corte         2014/05/10</b></span></pre>
+	</div>
+	<div style="float:left;width:50%;" align="center">
+		{html_image file='/app3/interface/xhtml/debit/img/barcode2.png'}
+		<pre><span  class="span1"><b>Valor al Segundo Corte        2014/05/30</b></span></pre>
+	</div>
+	<div style="float:left;width:100%;" >
+		<div style="float:left;width:17%;" class="pp4">Copia Estudiante</div>
+		<div style="float:left;width:66%;" class="pp4" align='center'>Pague Unicamente En Efectivo Sin Timbre de Caja No Tiene Validez</div>
+		<div  style="float:left;width:17%;"class="pp4" align='right'>Copia Estudiante</div>
+	</div>
+</div>
+ .
+{assign var=counter value=1}
+{while $counter <= 2}
+<div style="height:1%;float:left;width:100%; border-top-width: 1px;border-top-style:  dashed;  "> </div>
+ 
+ <div style="height:30%;width:100%;">
+	<div style="float:left;width:33%;">
+		<table cellpadding="0" cellspacing="0" class="" style="font-size: 11px;width:100% ">
+			<tbody>
+				<tr>
+					<td  class="td0"><p class="pp0">Banco</p>
+					</td>
+					<td class="td1"><p  class="pp0">Bancolombia</p>
+					</td>
+				</tr>
+				<tr>
+					<td  class="td0"><p class="pp0">Cuenta</p>
+					</td>
+					<td class="td1"><p  class="pp0">083-197143-08</p>
+					</td>
+				</tr>
+				<tr>
+					<td  class="td0"><p class="pp0">Ref Pago</p>
+					</td>
+					<td class="td1"><p  class="pp0">*0000023094*</p>
+					</td>
+				</tr>
+				<tr>
+					<td  class="td0"><p class="pp0">Codigo</p>
+					</td>
+					<td class="td1"><p  class="pp0">{$student->code}</p>
+					</td>
+				</tr>
+				<tr>
+					<td  class="td0"><p class="pp0">{$student->first_name|upper} {$student->last_name|upper}</p>
+					</td>
+					<td class="td1">
+					</td>
+				</tr>
+				<tr>
+					<td  class="td0"><p class="pp0">Fecha limite</p>
+					</td>
+					{if $counter === 1} 
+						<td class="td1"><p class="pp0">2014/05/30</p>
+						</td>
+					{else} 
+						<td class="td1"><p class="pp0">2014/05/10</p>
+						</td>
+					{/if} 
+				</tr>
+				<tr>
+					<td  class="td0"><p class="pp0">Valor a Pagar</p>
+					</td>
+					{if $counter === 1} 
+						<td class="td1"><p class="pp0">{13730201|currency}</p>
+						</td>
+					{else} 
+						<td class="td1"><p class="pp0">{13698877|currency}</p>
+						</td>
+					{/if} 
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<div style="float:left;width:67%;">
+		<div style="width:100%;" align="center">
+			<div style="float:left;width:50%;" align="center">
+			{html_image file='/app3/interface/xhtml/debit/img/small_logo.png'}
+			</div>
+			<div style="float:left;width:50%;" align="center">
+				<div style="float:left;width:100%;" class="pp4" align='center'>Valor al 
+					{if $counter === 2} 
+						Primer
+					{else} 
+						Segunto
+					{/if} 
+					
+					 Corte<br>Copia Banco<br></div>
+			</div>
+			 
+		</div>
+		<div style="width:100%;" align="center">
+			{if $counter === 1} 
+				{html_image file='/app3/interface/xhtml/debit/img/barcode1.png'}
+			{else} 
+				{html_image file='/app3/interface/xhtml/debit/img/barcode2.png'}
+			{/if} 
+		</div>
+	</div>
+	<div style="float:left;width:100%;" class="pp4" align='center'><br></br>Pague Unicamente En Efectivo Sin Timbre de Caja No Tiene Validez</div>
+</div>
+{$counter=$counter+1}
+{/while}
+
+
+
+

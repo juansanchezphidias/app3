@@ -1,0 +1,16 @@
+<h1>Sinopsis del libro</h1>
+
+<div class="field">
+	<label>Titulo</label>
+	<span>{$book->title}</span>
+</div>
+
+<div class="field">
+	<label>Sinopsis</label>
+	<span>{$book->synopsis}</span>
+</div>
+
+
+<a href="{link to='book'}">Regresar</a> 
+<a href="{link to='book/edit' book=$book->id}">Editar</a>
+<a href="{link to='book/delete' book=$book->id}" onclick="return confirm('Seguro ?')">Borrar</a>

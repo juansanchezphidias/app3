@@ -1,0 +1,25 @@
+<h1>Detalles de la persona</h1>
+
+<div class="field">
+	<label>nombre</label>
+	<span>{$persona->nombre}</span>
+</div>
+
+<div class="field">
+	<label>apellido</label>
+	<span>{$persona->apellido}</span>
+</div>
+
+<div class="field">
+	<label>nacimiento</label>
+	<span>{$persona->nacimiento}</span>
+</div>
+
+<div class="field">
+	<label>email</label>
+	<span>{$persona->email}</span>
+</div>
+
+<a href="{link to='person'}">Regresar</a> 
+<a href="{link to='person/editar' persona=$persona->id}">Editar</a>
+<a href="{link to='person/borrar' persona=$persona->id}" onclick="return confirm('Seguro ?')">Borrar</a>

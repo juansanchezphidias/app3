@@ -1,0 +1,14 @@
+17/08/2014 11:45:57	1408293957	127.0.0.1	visitor		GET	category/edit	category=12		Syntax Error in template "C:\xampp\htdocs\app3\interface\xhtml\category/edit.htm"  on line 7 "&lt;input type=&quot;text&quot; name=&quot;name&quot; value=&quot;{$category-}&quot; /&gt;"  - Unexpected "}"
+17/08/2014 11:45:57	1408293957	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+17/08/2014 11:45:59	1408293959	127.0.0.1	visitor		GET	category/edit	category=12		Syntax Error in template "C:\xampp\htdocs\app3\interface\xhtml\category/edit.htm"  on line 7 "&lt;input type=&quot;text&quot; name=&quot;name&quot; value=&quot;{$category-}&quot; /&gt;"  - Unexpected "}"
+17/08/2014 11:45:59	1408293959	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+17/08/2014 11:46:00	1408293960	127.0.0.1	visitor		GET	category/edit	category=12		Syntax Error in template "C:\xampp\htdocs\app3\interface\xhtml\category/edit.htm"  on line 7 "&lt;input type=&quot;text&quot; name=&quot;name&quot; value=&quot;{$category-}&quot; /&gt;"  - Unexpected "}"
+17/08/2014 11:46:00	1408293960	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+17/08/2014 11:46:00	1408293960	127.0.0.1	visitor		GET	category/edit	category=12		Syntax Error in template "C:\xampp\htdocs\app3\interface\xhtml\category/edit.htm"  on line 7 "&lt;input type=&quot;text&quot; name=&quot;name&quot; value=&quot;{$category-}&quot; /&gt;"  - Unexpected "}"
+17/08/2014 11:46:00	1408293960	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+17/08/2014 11:46:01	1408293961	127.0.0.1	visitor		GET	category/edit	category=12		Syntax Error in template "C:\xampp\htdocs\app3\interface\xhtml\category/edit.htm"  on line 7 "&lt;input type=&quot;text&quot; name=&quot;name&quot; value=&quot;{$category-}&quot; /&gt;"  - Unexpected "}"
+17/08/2014 11:46:01	1408293961	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+17/08/2014 11:46:09	1408293969	127.0.0.1	visitor		GET	category/edit	category=16		Syntax Error in template "C:\xampp\htdocs\app3\interface\xhtml\category/edit.htm"  on line 7 "&lt;input type=&quot;text&quot; name=&quot;name&quot; value=&quot;{$category-}&quot; /&gt;"  - Unexpected "}"
+17/08/2014 11:46:10	1408293970	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+17/08/2014 11:46:21	1408293981	127.0.0.1	visitor		GET	category/edit	category=22		Syntax Error in template "C:\xampp\htdocs\app3\interface\xhtml\category/edit.htm"  on line 7 "&lt;input type=&quot;text&quot; name=&quot;name&quot; value=&quot;{$category-}&quot; /&gt;"  - Unexpected "}"
+17/08/2014 11:46:21	1408293981	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada

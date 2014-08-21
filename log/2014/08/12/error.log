@@ -1,0 +1,4 @@
+12/08/2014 11:29:48	1407860988	127.0.0.1	visitor		POST	book/add			DB Error: no such table
+12/08/2014 11:29:48	1407860988	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+12/08/2014 11:32:38	1407861158	127.0.0.1	visitor		POST	book/add			DB Error: no such table
+12/08/2014 11:32:38	1407861158	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada

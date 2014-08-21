@@ -1,0 +1,79 @@
+<h1>Destalles de la categoria</h1>
+
+<div class="field">
+	<label>Nombre:</label>
+	<span>{$category->name}</span>
+</div>
+
+<h2>Lista de sub categorias</h2>
+
+<a href="add?category={$category->id}">Crear sub categoria</a>
+
+<table width="100%" cellpadding="0" cellspacing="0">
+	<thead>
+		<tr>
+			<td><a href="?order=id">Id</a></td>
+			<td><a href="?order=name">Nombre</a></td>
+			<td>Cantidad personas</td>
+			<td></td>
+			<td></td>
+		</tr>
+	</thead>
+	<tbody>
+		{if is_array($categories) && count($categories) > 0}
+			{foreach $categories as $item_category}
+			<tr>
+				<td>{$item_category->id}</td>
+				<td>{$item_category->name}</td>
+				<td>{$item_category->amount}</td>
+				<td><a href="edit?category={$item_category->id}">Editar</a></td>
+				<td><a href="details?category={$item_category->id}"  >Subcategorias</a></td>
+			</tr>
+			{/foreach}
+		{else}
+			<tr>
+				<td>Sin datos</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+		{/if}
+	</tbody>
+</table>
+<br></br>
+<h2>Lista de personas</h2>
+
+<a href="addPerson?category={$category->id}">Agregar persona</a>
+
+<table width="100%" cellpadding="0" cellspacing="0">
+	<thead>
+		<tr>
+			<td>Nombre</td>
+			<td>Apellido</td>
+		</tr>
+	</thead>
+	<tbody>
+		{if is_array($persons) && count($persons) > 0}
+			{foreach $persons as $person}
+			<tr>
+				<td>{$person->nombre}</td>
+				<td>{$person->apellido}</td>
+			</tr>
+			{/foreach}
+		{else}
+			<tr>
+				<td>Sin datos</td>
+				<td></td>
+			</tr>
+		{/if}
+	</tbody>
+</table>
+<br></br>
+<a href="{link to='category'}">Principal/</a>
+{if is_array($breadcrumbs) && count($breadcrumbs) > 0}
+	{foreach $breadcrumbs as $item_bread}
+		<a href="details?category={$item_bread['id']}">{$item_bread['name']}/</a> 
+	{/foreach}
+{/if}
+ 

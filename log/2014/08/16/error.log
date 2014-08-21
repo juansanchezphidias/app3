@@ -1,0 +1,10 @@
+15/08/2014 17:05:52	1408140352	127.0.0.1	visitor		GET	category/category/details	category=16		controller method category is not callable
+15/08/2014 17:05:52	1408140352	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+15/08/2014 17:06:09	1408140369	127.0.0.1	visitor		POST	category/add	id_category=16		DB Error: already exists
+15/08/2014 17:06:09	1408140369	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+16/08/2014 11:13:57	1408205637	127.0.0.1	visitor		GET	category/category/details	category=16		controller method category is not callable
+16/08/2014 11:13:57	1408205637	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+16/08/2014 12:49:47	1408211387	127.0.0.1	visitor		POST	category/addperson	category=11		DB Error: already exists
+16/08/2014 12:49:47	1408211387	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada
+16/08/2014 12:50:02	1408211402	127.0.0.1	visitor		POST	category/addperson	category=11		DB Error: already exists
+16/08/2014 12:50:02	1408211402	127.0.0.1	visitor		GET	interface/xhtml/img/errorpng			p&aacute;gina no encontrada

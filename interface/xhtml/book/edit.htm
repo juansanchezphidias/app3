@@ -1,0 +1,22 @@
+<h2>Modificar libro</h2>
+
+<form method="post" action="">
+	
+	<div class="field">
+		<label>Isbn</label>
+		<input type="text" name="isbn" value="{$book->isbn}" />
+	</div>
+
+	<div class="field">
+		<label>Titulo</label>
+		<input type="text" name="title" value="{$book->title}" />
+	</div>
+
+	<div class="field">
+		<label>Sinopsis</label>
+		<input type="text" name="synopsis" value="{$book->synopsis}" />
+	</div>
+
+	<input type="submit" value="Guardar" />
+
+</form>
