@@ -6,7 +6,7 @@ class Category_Model extends Model
 
     var $id;
     var $name;
-    var $father;
+#!/usr/bin/env     var $father;
     var $amount;
 
     function table()
