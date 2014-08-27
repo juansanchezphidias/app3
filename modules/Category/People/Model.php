@@ -21,5 +21,15 @@ class Category_People_Model extends Model
     {
         return array('id');
     }
-    
+
+    function links()
+    {
+        $person   = new Person_Model;
+        $category = new Category_Model;
+
+        return array(
+            "id_people"   => "$person->__table:id",
+            "id_category" => "$category->__table:id"
+        );
+    }
 }
