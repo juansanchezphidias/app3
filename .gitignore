@@ -1,2 +1,5 @@
 index.php
 config.php
+.htaccess
+log
+tmp
