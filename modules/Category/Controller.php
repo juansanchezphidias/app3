@@ -87,14 +87,14 @@ class Category_Controller extends Controller
 		$listCrumbs=array_reverse($this->breadcrumbs($id_category ,null));
 		$this->assign("breadcrumbs", $listCrumbs);
 		//Personas
-		$people_categories = new People_Categories_Model;
+		$people_categories = new Category_People_Model;
 		$people_categories->father=$id_category;
 		
 		$persons = new Person_Model;
 	//	$persons->joinAdd($people_categories, 'INNER','id_people','id');
 		$persons->query("SELECT p.id, p.nombre, p.apellido 
 						FROM   personas p INNER JOIN 
-								phidias_test.people_categories c ON 
+								people_categories c ON 
 								p.id=c.id_people WHERE c.id_category='".$id_category."'");
 	//$persons->find();
 
@@ -133,7 +133,7 @@ class Category_Controller extends Controller
 
 		//Personas
 		$persons = new Person_Model;
-		$sentence=" id NOT IN (SELECT id_people FROM phidias_test.people_categories WHERE id_category='$id_category')";
+		$sentence=" id NOT IN (SELECT id_people FROM people_categories WHERE id_category='$id_category')";
 		$persons->whereAdd($sentence);
 		$persons->find();
 
@@ -143,7 +143,7 @@ class Category_Controller extends Controller
 	public function addPerson_post($args)
 	{
 		$id_category=$args->get("category");
-		$people_categories = new People_Categories_Model;
+		$people_categories = new Category_People_Model;
 		$people_categories->id_category   =$id_category ;
 		$people_categories->id_people   =  Post::get("person");
 
