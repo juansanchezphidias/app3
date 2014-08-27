@@ -7,6 +7,7 @@ class Category_Controller extends Controller
 	{
         $this->category = new Category_Model;
 	}
+
 	public function main($args)
 	{
 		$order = $args->get("order");
@@ -116,6 +117,7 @@ class Category_Controller extends Controller
 		
 		return $results;
 	}
+
 	public function addAmount($args)
 	{
 		$category = new Category_Model;
@@ -126,6 +128,7 @@ class Category_Controller extends Controller
 		if($father!='')
 			$this->addAmount($father);
 	}
+
 	public function addPerson($args)
 	{
 		$id_category = $args->get("category");
@@ -140,6 +143,7 @@ class Category_Controller extends Controller
 		$peoples= $persons->fetchAll();
 		$this->assign("persons", $peoples);
 	}
+
 	public function addPerson_post($args)
 	{
 		$id_category=$args->get("category");
@@ -152,5 +156,60 @@ class Category_Controller extends Controller
 		Application::redirectTo("category/details?category=".$args->get("category"));
 	}
 	
+
+	public function picker($args)
+	{
+		$categoryPeople = new Category_People_Model;
+
+		$category = new Category_Model;
+		$categoryPeople->joinAdd($category);
+
+		$person = new Person_Model;
+		$categoryPeople->joinAdd($person);
+
+
+		$categoryPeople->selectAdd();
+		$categoryPeople->selectAdd("$category->__table.id as category_id");
+		$categoryPeople->selectAdd("$category->__table.name as category_name");
+
+		$categoryPeople->selectAdd("$person->__table.id as person_id");
+		$categoryPeople->selectAdd("$person->__table.nombre as person_nombre");
+		$categoryPeople->selectAdd("$person->__table.apellido as person_apellido");
+		$categoryPeople->selectAdd("$person->__table.email as person_email");
+
+		$categoryPeople->find();
+
+
+		$setOriginal = array();
+		$categories = array();
+
+		while ($categoryPeople->fetch()) {
+
+			$setOriginal[] = clone($categoryPeople);
+
+			if (!isset($categories[$categoryPeople->category_id])) {
+				
+				$category         = new Category_Model;
+				$category->id     = $categoryPeople->category_id;
+				$category->name   = $categoryPeople->category_name;
+				$category->people = array();
+
+				$categories[$categoryPeople->category_id] = $category;
+			}
+
+
+			$person           = new Person_Model;
+			$person->id       = $categoryPeople->person_id;
+			$person->nombre   = $categoryPeople->person_nombre;
+			$person->apellido = $categoryPeople->person_apellido;
+			$person->email    = $categoryPeople->person_email;
+
+			$categories[$categoryPeople->category_id]->people[] = $person;
+
+		}
+
+		$this->assign("setOriginal", $setOriginal);
+		$this->assign("categories", $categories);
+	}
+
 }
-?>
